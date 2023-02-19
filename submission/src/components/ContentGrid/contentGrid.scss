@@ -123,6 +123,12 @@
             h3 {
                 font-size: 24px;
                 margin-bottom: 20px;
+                cursor: pointer;
+                transition: color 150ms ease-in;
+
+                &:hover {
+                    color: rgb(249, 128, 77);
+                }
             }
 
             p {
@@ -137,13 +143,45 @@
     }
 
     .article {
-        width: 100px;
-        height: 100px;
         grid-column: span 4;
-        background-color: black;
+        width: 100%;
+        height: 160px;
+        display: flex;
+        font-family: Inter, 'sans serif';
+
+        @media (max-width: 1020px) {
+            margin-bottom: 40px;
+        }
 
         @media (min-width: 1020px) {
             margin-top: 50px;
+        }
+
+        .article-content {
+            margin-left: 20px;
+
+            h4 {
+                color: rgb(188, 188, 188);
+                font-size: 32px;
+            }
+
+            .title {
+                margin: 15px 0 10px 0;
+                font-size: 18px;
+                color: rgb(32, 1, 32);
+                transition: color 150ms ease-in;
+                cursor: pointer;
+
+                &:hover {
+                    color: rgb(249, 128, 77);
+                }
+            }
+
+            p {
+                font-size: 16px;
+                font-weight: 300;
+                line-height: 1.625;
+            }
         }
     }
 }

@@ -1,5 +1,9 @@
 import React from 'react';
 
+const retroPC = require('../../images/image-retro-pcs.jpg');
+const topLaptops = require('../../images/image-top-laptops.jpg');
+const gamingGrowth = require('../../images/image-gaming-growth.jpg');
+
 export default function ContentGrid() {
     return (
         <div id="content-grid">
@@ -44,9 +48,30 @@ export default function ContentGrid() {
                 </div>
             </div>
 
-            <div className="article"></div>
-            <div className="article"></div>
-            <div className="article"></div>
+            <article className="article">
+                <img src={retroPC} alt="article-thumbnail" />
+                <div className="article-content">
+                    <h4>01</h4>
+                    <h4 className="title">Reviving Retro PCs</h4>
+                    <p>What happens when old PCs are given modern upgrades?</p>
+                </div>
+            </article>
+            <article className="article">
+                <img src={topLaptops} alt="article-thumbnail" />
+                <div className="article-content">
+                    <h4>02</h4>
+                    <h4 className="title">Top 10 Laptops of 2022</h4>
+                    <p>Our best picks for various needs and budgets.</p>
+                </div>
+            </article>
+            <article className="article">
+                <img src={gamingGrowth} alt="article-thumbnail" />
+                <div className="article-content">
+                    <h4>03</h4>
+                    <h4 className="title">The Growth of Gaming</h4>
+                    <p>How the pandemic has sparked fresh opportunities.</p>
+                </div>
+            </article>
         </div>
     );
 }
