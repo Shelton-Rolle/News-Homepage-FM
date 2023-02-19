@@ -1,70 +1,60 @@
-# Getting Started with Create React App
+# Frontend Mentor - News homepage solution
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is a solution to the [News homepage challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/news-homepage-H6SWTa1MFl). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
-## Available Scripts
+## Table of contents
 
-In the project directory, you can run:
+-   [Overview](#overview)
+    -   [The challenge](#the-challenge)
+    -   [Screenshot](#screenshot)
+    -   [Links](#links)
+-   [My process](#my-process)
+    -   [Built with](#built-with)
+    -   [What I learned](#what-i-learned)
+    -   [Continued development](#continued-development)
+    -   [Useful resources](#useful-resources)
+-   [Author](#author)
+-   [Acknowledgments](#acknowledgments)
 
-### `npm start`
+## Overview
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### The challenge
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Users should be able to:
 
-### `npm test`
+-   View the optimal layout for the interface depending on their device's screen size
+-   See hover and focus states for all interactive elements on the page
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Screenshot
 
-### `npm run build`
+![](./src/images/project-screenshot.png)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Links
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+-   Solution URL: [Add solution URL here](https://your-solution-url.com)
+-   Live Site URL: [https://news-homepage-fm-one.vercel.app/](https://news-homepage-fm-one.vercel.app/)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## My process
 
-### `npm run eject`
+I decided to tackle this project with a mobile first approach. I took it one section at a time, building out each section firstly in a mobile view, then adjusting the styles as necessary for the desktop view. This approach made it a lot less confusing when trying to figure out what styles were needed for specific viewports and which styles could be shared across all viewports.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Matching the colors to the design proved to be a little difficult, however, I tried to get them as close as I could to what I thought was the original.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Built with
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+-   [React](https://reactjs.org/) - JS library
+-   [SASS](https://sass-lang.com/) - CSS PreProcessor
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### What I learned
 
-## Learn More
+One major thing I learned during this project, is the power of mobile first development. It's something I learnt while in school but never actually applied to my projects. My excuse was always "I forgot" or "it's not that important". Only to find that after styling for desktop my projects were extremely hard to make responsive so I would just give up.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+On top of how important mobile first styling is, I learned that CSS is capable of a lot more than I originally gave it credit for. I was able to give different functionality to the nav menu based on the viewport using only css and classnames. It seems so simple now, but in previous projects, my first instinct was to always attempt this different functionality through javascript, which always turned into a big jumble of logic that would just get confusing. This project put into perspective how I have been thinking past projects through and how much more difficult I have made them for myself.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### Continued development
 
-### Code Splitting
+In future projects, I want to get better at working with images. I still have trouble sometimes understanding how images work and how to make them work the way I want. I think getting a better grasp of images will be a big step for me and a huge advantage with future projects.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## Author
 
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+-   Frontend Mentor - [@shelton-rolle](https://www.frontendmentor.io/profile/Shelton-Rolle)
